@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+}
+header {
+    margin-bottom: -1em;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+ul .navList {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.2em;
+    padding-left: 1em;
+    padding-right: 1.2em;
+}
+ul li p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul .navList:hover {
+    text-decoration: underline;
+}
+ul #dropDown {
+    display: inline;
+    position: relative;
+}
+ul #dropDown-content {
+    display: none;
+    position: absolute;
+}
+ul #dropDown:hover #dropDown-content {
+    display: block;
+    
+}
+ul li:hover {
+    background-color: gray;
+}
+ul #dropDown #dropDown-content ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 120px;
+    padding-left: .6em;
+    padding-right: 0em;
+}
+ul #dropDown #dropDown-content ul li{
+    display: flex;
+    list-style-type: none;
+}
