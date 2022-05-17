@@ -1,5 +1,0 @@
-var config = {
-    NYTIME_TOKEN: 'EEZDWTiwHBvbK0V6OaMLSIiz9srUfyB6',
-    NYTIME_KEY_SECRET: 'NoW2oubDZPusWUfL',
-    GOOGLE_TOKEN: 'AIzaSyBLHB4D-jXL36MoVhEuJgKti2THIlk74Yg',
-}
