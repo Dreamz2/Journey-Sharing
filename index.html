@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Something with books">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon">
+    <title>Books</title>
+    <script type="text/Javascript" src="config.js"></script>
+    <script type="text/Javascript" src="script.js" defer></script>
+    <script type="text/Javascript" src="Genres.js"></script>
+</head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h2><a href="index.html">Books time</a></h2>
+            </header>
+            <nav>
+                <ul>
+                    <li id="dropDown" class="navList"><p>Genres</p>
+                        <div id="dropDown-content">
+                            <ul>
+                                <li><a href="#mainContent">DropDown</a></li>
+                                <li><a href="#mainContent">DropDown</a></li>
+                                <li><a href="#mainContent">DropDown</a></li>
+                                <li><a href="#mainContent">DropDown</a></li>
+                                <li><a href="#mainContent">DropDown</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navList"><p>Thing</p></li>
+                    <li class="navList"><a href="login.html"><p>Login</p></a></li>
+                </ul>
+            </nav>
+            <main>
+                <!--Displays 5 BestSellers for this week or month-->
+                <div id="BestSellers_Label">
+                    <h3>5 Best Sellers This Week</h3>
+                    <div id="BestSellers_Content">
+
+                    </div>
+                </div>
+                <!--Displays 5 of the Users Last viewed genres(2-3) save in local cache. 
+                    If local cache is empty then display random genre -->
+                <div id="Label_UserList">
+                    <h3>Last Viewed Genre</h3>
+                    <div id="User_LastViewed_Genre">
+
+                    </div>
+                </div>
+                <!--Displays 5 Trending Non-Fiction and Fiction books today-->
+                <div id="Trending_Today">
+                    <h3>Todays Top Non-Fiction books</h3>
+                    <div id="Trending_Non_Fiction">
+
+                    </div>
+                    <h3>Todays Top Fiction books</h3>
+                    <div id="Trending_Fiction">
+
+                    </div>
+                </div>
+            </main>
+            <footer>
+
+            </footer>
+        </div>
+    </body>
+</html>
