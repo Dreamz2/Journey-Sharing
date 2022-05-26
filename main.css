@@ -60,3 +60,7 @@ ul #dropDown #dropDown-content ul li{
     display: flex;
     list-style-type: none;
 }
+img {
+    height: 125px;
+    width: 63.5px;
+}
