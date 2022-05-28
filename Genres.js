@@ -1,3 +1,4 @@
+// will be implementing node.js or some sort of way to retrive this file in json format 
 var genres = {
     Genres: {
         Popular_Genres: {
@@ -49,3 +50,70 @@ var genres = {
 
     }
 };
+var genresList = [
+    {
+        Genres: [
+            {
+                Popular_Genres: [
+                    {
+                        Fiction: [
+                            "Fantasy",
+                            "Science Fiction",
+                            "Dystopian",
+                            "Action & Adventure",
+                            "Mystery",
+                            "Horror",
+                            "Thriller & Suspense",
+                            "Historical Fiction",
+                            "Romance",
+                            "Womens Fiction",
+                            "LGBTQ+",
+                            "Contemporary Fiction",
+                            "Literary Fiction",
+                            "Magical Realism",
+                            "Graphic Novel",
+                            "Short Story",
+                            "Young Adult",
+                            "Children's",
+                        ],
+                    },
+                    {
+                        Non_Fiction: [
+                            "Memoir & Autobiography",
+                            "Biography",
+                            "Food & Drink",
+                            "Art & Photography",
+                            "Self help",
+                            "History",
+                            "Travel",
+                            "True Crime",
+                            "Humor",
+                            "Essays",
+                            "Guides",
+                            "How to",
+                            "Religion & Spirituality",
+                            "Humanities & Social Sciences",
+                            "Parenting & Families",
+                            "Science & Technology",
+                            "Children’s"
+                        ]
+                    }
+                ],
+            },
+            {
+                Non_Popular_Genres: [
+                    {
+                        
+                    }
+                ]
+            }
+        ],
+    },
+    {
+        Sub_Genres: [
+            {
+    
+            }
+        ]
+    }
+];
