@@ -1,0 +1,29 @@
+.container {
+    box-shadow: 1px 5px 15px 1px grey;
+    padding: 1.25em;
+    margin: 1em;
+}
+
+img {
+    height: 150px;
+    width: 88.5px;
+    box-shadow: 8px 6px 3px 1px black;
+}
+#BestSellers_Label, #Genre_List, #Trending_Today {
+    padding-top: 1.5em;
+    padding-left: 1em;
+}
+
+#BestSellers_Content, #Rand_Genre_Content, #Trending_Non_Fiction_Content, #Trending_Fiction_Content {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: 5em;
+}
+
+.Book_Title_Author {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

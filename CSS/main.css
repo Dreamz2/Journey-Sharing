@@ -11,14 +11,14 @@ a {
     text-decoration: none;
     color: black;
 }
-ul {
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin-top: 0px;
     margin-bottom: 2px;
 }
-ul .navList {
+nav ul .navList {
     display: flex;
     list-style-type: none;
     font-size: 1.2em;
@@ -59,8 +59,4 @@ ul #dropDown #dropDown-content ul {
 ul #dropDown #dropDown-content ul li{
     display: flex;
     list-style-type: none;
-}
-img {
-    height: 125px;
-    width: 63.5px;
 }
