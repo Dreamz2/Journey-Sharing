@@ -163,6 +163,7 @@ var NYT_Genres = {
     }
 }
 
+// Extra will add at a later date
 // Paperback Mass-Market Fiction mass-market-paperback
 
 // E-Book Fiction e-book-fiction
