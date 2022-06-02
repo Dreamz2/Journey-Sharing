@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Something with books">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/BookDisplay.css">
+    <link rel="stylesheet" href="CSS/footer.css">
     <link rel="icon" type="image/x-icon">
     <title>Books</title>
     <script type="text/Javascript" src="config.js"></script>
@@ -13,7 +15,7 @@
     <script type="text/Javascript" src="Genres.js"></script>
 </head>
     <body>
-        <div id="wrapper">
+        <div class="container">
             <header>
                 <h2><a href="index.html">Books time</a></h2>
             </header>
@@ -44,26 +46,32 @@
                 </div>
                 <!--Displays 5 of the Users Last viewed genres(2-3) save in local cache. 
                     If local cache is empty then display random genre -->
-                <div id="Label_UserList">
-                    <h3>Last Viewed Genre</h3>
-                    <div id="User_LastViewed_Genre">
+                <!--Will be displaying random Genres or SubGenres for now-->
+                <div id="Genre_List">
+                    <h3 id="Title_Genre">Showing Top books for </h3>
+                    <div id="Rand_Genre_Content">
 
                     </div>
                 </div>
                 <!--Displays 5 Trending Non-Fiction and Fiction books today-->
                 <div id="Trending_Today">
                     <h3>Todays Top Non-Fiction books</h3>
-                    <div id="Trending_Non_Fiction">
+                    <div id="Trending_Non_Fiction_Content">
 
                     </div>
                     <h3>Todays Top Fiction books</h3>
-                    <div id="Trending_Fiction">
+                    <div id="Trending_Fiction_Content">
 
                     </div>
                 </div>
             </main>
             <footer>
+                <div>
+                    
+                </div>
+                <div id="test">
 
+                </div>
             </footer>
         </div>
     </body>
