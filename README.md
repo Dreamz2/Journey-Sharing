@@ -7,6 +7,8 @@ the next bestseller of this week, recommended a random genre of books based on t
 Fiction, and non-Fiction. Journey Sharing will allow users to create an account and add books to either their Favourites List or
 Reading Next List. They will be able to share both their list just by sharing their username or Link to their page.
 
+![Journey Sharing Website](images/Website.png)
+
 ### Mission
 To create a website to get more people into reading and for people to share their favourite book or the latest book they have read.
 I want to make it as simple as it can be to add any book to either of their list and to share their username for everyone to see
